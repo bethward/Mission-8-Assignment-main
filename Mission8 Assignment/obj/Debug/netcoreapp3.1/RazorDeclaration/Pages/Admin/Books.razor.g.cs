@@ -63,7 +63,7 @@ using BookProject.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 62 "/Users/bethanyward/Projects/Mission-8-Assignment-main/Mission8 Assignment/Pages/Admin/Books.razor"
+#line 65 "/Users/bethanyward/Projects/Mission-8-Assignment-main/Mission8 Assignment/Pages/Admin/Books.razor"
        
 
     public IBookRepository repo => Service;

@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{BBF3C653-6F64-4B77-BA7D-432F0D41A546}|Mission7">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Editor.razor">
+    <Files>
+      <File FileName="Pages/Admin/Details.razor" Line="1" Column="1" />
+      <File FileName="Pages/Admin/Books.razor" Line="16" Column="14" />
+      <File FileName="Pages/Admin/Editor.razor" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -17,6 +22,9 @@
                   <Node name="bootstrap" expanded="True">
                     <Node name="b2" expanded="True">
                       <Node name="css" expanded="True" />
+                      <Node name="js" expanded="True">
+                        <Node name="bootstrap.js" expanded="True" />
+                      </Node>
                     </Node>
                   </Node>
                 </Node>
