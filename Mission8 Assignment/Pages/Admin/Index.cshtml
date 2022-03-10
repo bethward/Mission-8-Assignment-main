@@ -1,0 +1,20 @@
+﻿@page "/admin"
+
+@model BookProject.Pages.Admin.Books
+
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Book Admin</title>
+    <link rel="stylesheet" href="~/L/bootstrap/b2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/look.css" />
+    <base href="/" />
+</head>
+<body>                      <!--"Routed" refers to the Routed.razor pg-->
+    <component type="typeof(BookProject.Pages.Admin.Routed)" render-mode="Server" />
+    <script src="/_framework/blazor.server.js"></script>
+</body>
+</html>

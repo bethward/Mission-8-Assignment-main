@@ -38,5 +38,8 @@ namespace BookProject.Models
         public string Country { get; set; }
 
         public bool Anonymous { get; set; }
+
+        [BindNever]//so normal user cant see it
+        public bool PurchaseReceived { get; set; }
     }
 }

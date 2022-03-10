@@ -50,7 +50,8 @@ namespace BookProject
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-
+            //setting up blazor
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,6 +74,10 @@ namespace BookProject
 
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
+
+                //setting up blazor
+                endpoints.MapBlazorHub();
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
           }
         }

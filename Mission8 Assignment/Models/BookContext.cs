@@ -36,7 +36,7 @@ namespace BookProject.Models
             {
                 entity.HasKey(e => e.BookId);
 
-                entity.Property(e => e.BookId).ValueGeneratedNever();
+                entity.Property(e => e.BookId);
 
                 entity.Property(e => e.Author).IsRequired();
 

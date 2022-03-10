@@ -14,7 +14,7 @@
         "outputPath": "/Users/bethanyward/Projects/Mission-8-Assignment-main/Mission8 Assignment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bethanyward/.nuget/NuGet/NuGet.Config"
+          "/Users/bethanyward/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
