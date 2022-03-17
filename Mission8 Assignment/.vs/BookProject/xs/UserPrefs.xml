@@ -1,33 +1,31 @@
 ﻿<Properties StartupConfiguration="{BBF3C653-6F64-4B77-BA7D-432F0D41A546}|Mission7">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Editor.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Account/Login.cshtml">
     <Files>
-      <File FileName="Pages/Admin/Details.razor" Line="1" Column="1" />
-      <File FileName="Pages/Admin/Books.razor" Line="16" Column="14" />
-      <File FileName="Pages/Admin/Editor.razor" Line="1" Column="1" />
+      <File FileName="Models/IdentitySeedData.cs" Line="31" Column="14" />
+      <File FileName="Startup.cs" />
+      <File FileName="Models/ViewModels/LoginModel.cs" />
+      <File FileName="Views/Account/Login.cshtml" Line="21" Column="21" />
+      <File FileName="Controllers/AccountController.cs" />
+      <File FileName="Pages/Admin/Index.cshtml" />
+      <File FileName="Pages/Admin/AdminLayout.razor" Line="18" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookProject" expanded="True">
             <Node name="BookProject" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Editor.razor" selected="True" />
-                </Node>
-                <Node name="Cart.cshtml" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="L" expanded="True">
-                  <Node name="bootstrap" expanded="True">
-                    <Node name="b2" expanded="True">
-                      <Node name="css" expanded="True" />
-                      <Node name="js" expanded="True">
-                        <Node name="bootstrap.js" expanded="True" />
-                      </Node>
-                    </Node>
-                  </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="Login.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
